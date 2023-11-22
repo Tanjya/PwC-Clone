@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.background-home {
+  background-image: url("https://mbemag.com/wp-content/uploads/successful-black-business-executive-UQXCAH3.jpg");
+  background-repeat: no-repeat;
+}
+
+header nav a.active {
+  color: red;
+}
+
+.errorH1-style {
+  font-size: 40px;
+  font-style: italic;
+  line-height: 1em;
+  margin: 5px 0;
+  font-family: Georgia, "Times New Roman";
+}
+
+.bg-error-page {
+  background-color: #dc6900;
+}
